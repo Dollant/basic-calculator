@@ -17,6 +17,16 @@ public class BasicCalculatorApp {
         int num2 = keyboard.nextInt();
         keyboard.nextLine();
 
+        System.out.println("\nPossible Calculations:");
+        System.out.println("(A)dd");
+        System.out.println("(S)ubtract");
+        System.out.println("(M)ultiply");
+        System.out.println("(D)ivide");
+        System.out.print("Please select an option: ");
+        String option = keyboard.nextLine();
+
+
+
 
     }
 }
