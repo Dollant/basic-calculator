@@ -25,6 +25,8 @@ public class BasicCalculatorApp {
         System.out.print("Please select an option: ");
         String option = keyboard.nextLine();
 
+        System.out.println("\n" + num1 + " * " + num2 + " = " + (num1 * num2));
+
 
 
 
